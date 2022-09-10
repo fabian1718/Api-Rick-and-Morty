@@ -1,4 +1,4 @@
-import Residents from './residents';
+import Residents from './Residents';
 
 const ResidentInfo = ({location}) => {
 
