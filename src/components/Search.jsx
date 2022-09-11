@@ -16,11 +16,14 @@ const Search = ({setLocation}) => {
 
     return (
         <div className='search'>
-            <input type="text"
-            placeholder="Enter the ID of the location: 1 - 126" 
-            value = {idLocation} 
-            onChange = {e => setIdLocation(e.target.value)}/>
-            <button onClick = {searchId}>Search</button>
+            <h1>Rick and Morty Wiki</h1>
+             <div className='search-btn'>
+                <input type="text"
+                placeholder="Enter the ID of the location: 1 - 126" 
+                value = {idLocation} 
+                onChange = {e => setIdLocation(e.target.value)}/>
+                <button onClick = {searchId}>Search</button>
+             </div>
         </div>
     );
 };

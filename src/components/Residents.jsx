@@ -18,7 +18,7 @@ const Residents = ({urls}) => {
                 <img src={character.image} alt="" />
                 <h3>Status: {character.status}</h3>
                 <p>origin: {character.origin?.name}</p>
-                <p>Cant episode: {character.episode?.length}</p>
+                <p>number of episodes where it appears: {character.episode?.length}</p>
             </li>
         </div>
     );

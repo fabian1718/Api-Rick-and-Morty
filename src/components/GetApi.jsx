@@ -25,9 +25,11 @@ const GetApi = () => {
             <Header setLocation={setLocation}/>
             </div>
             <div>
+                <h1 className='location-h1'>Citadel of Rick</h1>
                 <FeaturesLocation location={location}/>
             </div>
             <div className='containerResidents'>
+                <div className='residents-c'>Residentes</div>
                 <ResidentInfo location={location}/>
             </div>
         </div>
