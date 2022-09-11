@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import FeaturesLocation from './FeaturesLocation';
+import Footer from './Footer';
 import Header from './Header';
 import ResidentInfo from './ResidentInfo';
 
@@ -32,6 +33,7 @@ const GetApi = () => {
                 <div className='residents-c'>Residentes</div>
                 <ResidentInfo location={location}/>
             </div>
+            <Footer />
         </div>
     );
 };

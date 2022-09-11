@@ -33,9 +33,9 @@ h1{
 
 h2, h3, h4 {
     box-shadow: 2px 2px 8px rgba(250, 249, 249, 0.2);
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 10px;
     backdrop-filter: blur(2px) contrast(82%) saturate(35%);
+
 }
 
 p{
@@ -116,13 +116,14 @@ input{
 }
 
 button{
-    width: 35%;
+    width: 40%;
     height: 45px;
     font-family: 'Creepster', cursive;
     font-size: larger;
     background: var(--secondary);
     color: var(--white);
     border: 1px solid #ffffff;
+    padding: 3px;
 }
 
 button:hover{
@@ -155,8 +156,8 @@ button:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -175,11 +176,36 @@ img{
     cursor: pointer;
     background: rgba(255, 0, 0, 0.07); 
     backdrop-filter: blur(2px) contrast(82%) saturate(35%);
-    width: 100%;
-    height: 100%;
+    width: 99%;
+    height: 99%;
 }
 
 .cart h1 span {
     color: var(--secondary);
+}
+
+.footer{
+    height: 150px;
+    display: flex;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: solid 1px var(--colorLetters);
+    margin-top: 30px;
+}
+
+.footer-i{
+    display: flex;
+    gap: 20px;
+}
+
+i{
+    font-size: 20px;
+    color: blue;
+}
+
+i:hover{
+    cursor: pointer;
 }
 
